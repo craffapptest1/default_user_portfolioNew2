@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaExternalLinkAlt } from "react-icons/fa";
-import { FiCode, FiDesign, FiGlobe } from "react-icons/fi";
+import { FiCode, FiGlobe } from "react-icons/fi";
 
 export default function Home() {
   return (
@@ -104,7 +104,6 @@ export default function Home() {
                 </div>
                 <div className="text-center p-6 bg-white rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-2">
                   <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
-                    <FiDesign className="w-6 h-6 text-green-600" />
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">Design</h3>
                   <p className="text-sm text-gray-600">Figma, UI/UX, Responsive Design</p>
